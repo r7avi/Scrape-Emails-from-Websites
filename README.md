@@ -12,7 +12,7 @@ This Python-based email scraper extracts email addresses from websites listed in
 
 ## Prerequisites
 
-- Python 3.7 or higher
+- Python 3.10
 - Google Chrome or Chromium browser
 
 ## Installation
@@ -29,25 +29,29 @@ This Python-based email scraper extracts email addresses from websites listed in
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
- 3. **Install required packages:**
-
+3. **Install required packages:**
+   
    ```bash
    pip install -r requirements.txt
 
 
 4. **Download and install Google Chrome or Chromium:**
+
    ```bash
    Ensure you have Google Chrome or Chromium installed. The script uses Playwright's Chromium driver by default but you can specify the path to Chrome if needed.
 
 5. **Run the script:**
+
    ```bash
-   python email_scraper.py
+   python email-scrapper.py
 
 6. **Select a CSV file:**
+
    ```bash
    A file dialog will prompt you to select a CSV file containing website URLs. Ensure the CSV file has a column named Website.
 
 7. **Review results:**
+
    ```bash
    The script will process each website, extract email addresses, and save the results to a new CSV file with an added Email column.
 
