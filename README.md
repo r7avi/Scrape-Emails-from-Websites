@@ -43,7 +43,7 @@ This Python-based email scraper extracts email addresses from websites listed in
 5. **Run the script:**
 
    ```bash
-   python email_scraper.py
+   python email-scrapper.py
 
 6. **Select a CSV file:**
 
