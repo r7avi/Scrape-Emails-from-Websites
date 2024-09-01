@@ -12,7 +12,7 @@ This Python-based email scraper extracts email addresses from websites listed in
 
 ## Prerequisites
 
-- Python 3.7 or higher
+- Python 3.10
 - Google Chrome or Chromium browser
 
 ## Installation
