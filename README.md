@@ -29,7 +29,7 @@ This Python-based email scraper extracts email addresses from websites listed in
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
- 3. **Install required packages:**
+3. **Install required packages:**
    
    ```bash
    pip install -r requirements.txt
