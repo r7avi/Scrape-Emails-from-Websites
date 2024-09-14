@@ -1,4 +1,4 @@
-# Email Scraper
+# Email Scraper - Updated 14.09.2024
 
 This Python-based email scraper extracts email addresses from websites listed in a CSV file. It uses the Playwright library to interact with web pages and locate email addresses on both the main page and designated contact pages.
 
